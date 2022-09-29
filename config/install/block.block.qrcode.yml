@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - jugaad_customization
+    - node
+  theme:
+    - olivero
+id: qrcode
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: jugaad_customization_qrcode
+settings:
+  id: jugaad_customization_qrcode
+  label: 'QR Code'
+  label_display: '0'
+  provider: jugaad_customization
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

@@ -1,0 +1,14 @@
+{
+    "name": "abhisekmazumdar/jugaad_customization",
+    "description": "customization for Jugaad Patches Pvt Ltd",
+    "type": "drupal-module",
+    "require": {
+        "endroid/qr-code": "^4.5"
+    },
+    "authors": [
+        {
+            "name": "Abhisek Mazumdar",
+            "email": "abhisekmajumdar4@gmail.com"
+        }
+    ]
+}
